@@ -1,0 +1,54 @@
+.gap-125 {
+  gap: 1.25rem;
+}
+.gap-1{
+  gap: 1rem;
+}
+.gap-15 {
+  gap: 1.5rem;
+}
+
+.gap-auto {
+  gap: auto;
+}
+
+.grid  {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - 2rem * 2);
+  margin-inline: auto;
+}
+.desktop-only {
+  display: none;
+}
+
+
+@media (width >= 80em) {
+  .container {
+    --max-width: 80em;
+  }
+
+  .desktop-only {
+display: initial;
+  }
+
+
+
+}
+
+.pfp-img {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+  
+}
