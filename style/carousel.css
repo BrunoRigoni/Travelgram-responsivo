@@ -1,0 +1,24 @@
+.carousel {
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+
+  & img {
+    max-width: 20.5rem;
+    max-height: 20.5rem;
+  }
+
+}
+
+@media (width >= 80em) {
+
+  .carousel {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1.5rem;
+    gap: 1.5rem;
+
+  }
+
+ 
+
+}

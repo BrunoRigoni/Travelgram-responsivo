@@ -36,16 +36,27 @@
   --fw-base: 400;
   --fw-lg: 800;
 
+
   --fs-sm: .75rem;
   --fs-md: .875rem;
-  --fs-lg: 2rem;
+  --fs-lg: 1.5rem;
+  --fs-xlg: 2rem;
 
+  --padding-inline-container: 1rem;
 }
 
 html {
   font-family: var(--ff-poppins);
   font-weight: var(--fw-base);
   font-size: var(--fs-md) ;
+}
+
+body {
+  background-color: var(--surface-color);
+}
+
+#carousel {
+  background-color: var(--bg-color);
 }
 
 ul[role="list"] {
@@ -55,4 +66,11 @@ ul[role="list"] {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (width >= 80em){
+  :root {
+    --padding-inline-container: 2rem;
+  }
+
 }

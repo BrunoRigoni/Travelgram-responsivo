@@ -13,35 +13,83 @@
 
 <body>
   <div class="container">
-  <nav class="flex">
-    <div>
-      <img src="./assets/icons/Logo.svg" alt="">
+    <nav class="flex">
+      <div>
+        <img src="./assets/icons/Logo.svg" alt="">
+      </div>
+
+      <div class="flex">
+
+
+        <a href="#">
+          <svg class="glass-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.5306 20.4693L16.8365 15.7762C18.1971 14.1428 18.8755 12.0478 18.7307 9.92691C18.5859 7.80604 17.629 5.82265 16.0591 4.38932C14.4892 2.95599 12.4271 2.18308 10.3019 2.23138C8.17663 2.27968 6.15181 3.14547 4.64864 4.64864C3.14547 6.15181 2.27968 8.17663 2.23138 10.3019C2.18308 12.4271 2.95599 14.4892 4.38932 16.0591C5.82265 17.629 7.80604 18.5859 9.92691 18.7307C12.0478 18.8755 14.1428 18.1971 15.7762 16.8365L20.4693 21.5306C20.539 21.6003 20.6218 21.6556 20.7128 21.6933C20.8038 21.731 20.9014 21.7504 21 21.7504C21.0985 21.7504 21.1961 21.731 21.2871 21.6933C21.3782 21.6556 21.4609 21.6003 21.5306 21.5306C21.6003 21.4609 21.6556 21.3782 21.6933 21.2871C21.731 21.1961 21.7504 21.0985 21.7504 21C21.7504 20.9014 21.731 20.8038 21.6933 20.7128C21.6556 20.6218 21.6003 20.539 21.5306 20.4693ZM3.74997 10.5C3.74997 9.16495 4.14585 7.8599 4.88755 6.74987C5.62925 5.63984 6.68346 4.77467 7.91686 4.26378C9.15026 3.75289 10.5075 3.61922 11.8168 3.87967C13.1262 4.14012 14.3289 4.78299 15.2729 5.727C16.2169 6.671 16.8598 7.87374 17.1203 9.18311C17.3807 10.4925 17.2471 11.8497 16.7362 13.0831C16.2253 14.3165 15.3601 15.3707 14.2501 16.1124C13.14 16.8541 11.835 17.25 10.5 17.25C8.71037 17.248 6.99463 16.5362 5.72919 15.2708C4.46375 14.0053 3.75196 12.2896 3.74997 10.5Z"
+              fill="#6C6C6C" />
+          </svg>
+        </a>
+        <a href="#info" class="desktop-only">Explorar</a>
+        <a href="#" class="desktop-only">Minhas viagens</a>
+        <a href="#" class="pfp"><img src="./assets/img/Profile pic.png" alt="Imagem de perfil" class="pfp-img"></a>
+
+      </div>
+    </nav>
+
+    <header id="main-info">
+      <section class="flex">
+        <div  class="description flex">
+          <div>
+            <img class="pfp-lg" src="./assets/img/Profile pic.png" alt="">
+          </div>
+          <div>
+            <h1>Isabela Torres</h1>
+            <p>Amante de viagens, cultura e gastronomia. 🌍✈️ <br>
+              Aqui compartilho as histórias registradas em cada <br> clique, explorando cantinhos fascinantes do nosso <br>
+              planeta a partir da movimentada cidade de São <br> Paulo. 🏙️📸
+            </p>
+          </div>
+        </div>
+
+        <div class="info">
+          <ul class="flex" role="list">
+            <li> <img class="icon" src="./assets/icons/MapPin.svg" alt=""> São Paulo, Brazil</li>
+            <li> <img class="icon" src="./assets/icons/AirplaneTilt.svg" alt=""> 37 países</li>
+            <li> <img class="icon" src="./assets/icons/Image.svg" alt=""> 240 fotos</li>
+          </ul>
+        </div>
+
+      </section>
+    </header>
+  </div>
+
+  <section id="carousel">
+    <div class="container grid carousel">
+      <img src="./assets/img/Image 01.png" alt="">
+      <img src="assets/img/Image 02.png" alt="">
+      <img src="assets/img/Image 03.png" alt="">
+      <img src="assets/img/Image 04.png" alt="">
+      <img src="assets/img/Image 05.png" alt="">
+      <img src="assets/img/Image 06.png" alt="">
+      <img src="./assets/img/Image 07.png" alt="">
+      <img src="assets/img/Image 08.png" alt="">
+      <img src="assets/img/Image 09.png" alt="">
+      <img src="assets/img/Image 10.png" alt="">
+      <img src="assets/img/Image 11.png" alt="">
+      <img src="assets/img/Image 12.png" alt="">
     </div>
+  </section>
 
+  <footer class="flex">
     <div>
-      <ul class="flex" role="list">
-        <li>
-          <a href="#"><img src="./assets/icons/MagnifyingGlass.svg" alt="Icone de lupa indicando pesquisa"></a>
-        </li>
-
-        <li>
-          <a href="#" class="desktop-only">Explorar</a>
-        </li>
-
-        <li>
-          <a href="#" class="desktop-only">Minhas viagens</a>
-        </li>
-
-        <li>
-          <a href="#" class="pfp" ><img src="./assets/img/Profile pic.png" alt="Imagem de perfil" class="pfp-img"></a>
-        </li>
-
-
-
-      </ul>
+      <span>Travelgram © 2024</span>
     </div>
-  </nav>
-</div>
+    <div class="flex">
+      <span>Termos de uso</span>
+      <span>Política de privacidade</span>
+    </div>
+  </footer>
+
 </body>
 
 </html>

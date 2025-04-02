@@ -3,8 +3,28 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding-block: 1.25rem;
   
   
+  & > div {
+    align-items: center;
+    gap: 1rem;
+    
+    & a:hover {
+      color: var(--brand-color);
+      text-decoration: underline;
+    }
 
+    & .glass-icon:hover path {
+      fill: var(--brand-color);
+    }
+  }
+}
 
+@media (width >= 80em) {
+  nav {
+    & div:nth-child(2) {
+      gap: 1.25rem;
+    }
+  }
 }
